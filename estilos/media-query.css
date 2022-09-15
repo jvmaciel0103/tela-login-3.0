@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 780px){
+
+    body{
+        display:flex;
+    }
+
+    main{
+        display: inline-flex;
+
+        width: 90vw;
+        height: 300px;
+
+        margin-top: 19vh;
+
+        margin-left: 5vw;
+
+
+
+    }
+
+    img{
+        border-radius: 20px 0px 0px 20px;
+
+        width: 30vw;
+        height: 300px;
+
+        
+    }
+
+    
+
+    section{
+        width: 60vw;
+        height: 300px;
+
+        border-radius: 0px 20px 20px 0px;
+
+    }
+    section > p{
+            font-size: 1em;
+        }
+
+    .box, .box2{
+        width: 57vw;
+        height: 43px;
+        border-radius: 7px;
+        
+        display: flex;
+        margin-bottom: 5px;
+    }
+    span{
+        padding: 7px 5px 0px 7px;
+
+    }
+
+    #inome, #isenha{
+        width: 52.5vw;
+    }
+
+    #ientrar{
+        display: grid;
+        align-items: center;
+
+        font-size: 1em;
+    }
+
+    #iesenha{
+        display: grid;
+        align-items: center;
+
+        font-size: 1em;
+    }
+    
+}
